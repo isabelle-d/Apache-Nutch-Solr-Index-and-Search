@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<!--
+ ! A common framework for http protocol implementations
+ !-->
+<plugin
+   id="lib-selenium"
+   name="HTTP Framework"
+   version="1.0"
+   provider-name="org.apache.nutch">
+
+   <runtime>
+     <library name="lib-selenium.jar">
+       <export name="*"/>
+     </library>
+     <!-- Begin dependencies -->
+     <library name="auto-service-annotations-1.1.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="byte-buddy-1.14.12.jar">
+       <export name="*"/>
+     </library>
+     <library name="checker-qual-3.41.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="commons-exec-1.3.jar">
+       <export name="*"/>
+     </library>
+     <library name="error_prone_annotations-2.23.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="failsafe-3.3.2.jar">
+       <export name="*"/>
+     </library>
+     <library name="failureaccess-1.0.2.jar">
+       <export name="*"/>
+     </library>
+     <library name="guava-33.0.0-jre.jar">
+       <export name="*"/>
+     </library>
+     <library name="j2objc-annotations-2.8.jar">
+       <export name="*"/>
+     </library>
+     <library name="jsr305-3.0.2.jar">
+       <export name="*"/>
+     </library>
+     <library name="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-api-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-api-events-1.35.0-alpha.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-context-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-exporter-logging-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-extension-incubator-1.35.0-alpha.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-common-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-extension-autoconfigure-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-logs-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-metrics-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-sdk-trace-1.35.0.jar">
+       <export name="*"/>
+     </library>
+     <library name="opentelemetry-semconv-1.23.1-alpha.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-api-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-chrome-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-chromium-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-devtools-v120-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-devtools-v121-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-devtools-v122-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-devtools-v85-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-edge-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-firefox-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-http-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-ie-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-java-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-json-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-manager-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-os-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-remote-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-safari-driver-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <library name="selenium-support-4.18.1.jar">
+       <export name="*"/>
+     </library>
+     <!-- End of dependencies -->
+   </runtime>
+</plugin>

@@ -1,0 +1,999 @@
+2026-05-26 19:45:08,233 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:45:08,293 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:45:08,294 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:45:08,295 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:45:08,295 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:45:08,295 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:45:08,355 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:45:31,860 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:45:31,911 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:45:31,912 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:45:31,960 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:45:32,004 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl/segments/20260526191241.
+2026-05-26 19:45:32,005 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:45:32,008 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:45:32,008 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:45:32,008 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:45:32,008 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl/crawldb
+2026-05-26 19:45:32,009 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl/segments/20260526191241
+2026-05-26 19:45:32,009 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl/linkdb
+2026-05-26 19:45:32,324 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:45:32,325 INFO o.a.h.m.Job [main] Running job: job_local165490717_0001
+2026-05-26 19:45:33,155 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:45:33,241 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:45:33,269 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:45:33,333 INFO o.a.h.m.Job [main] Job job_local165490717_0001 running in uber mode : false
+2026-05-26 19:45:33,333 INFO o.a.h.m.Job [main]  map 100% reduce 0%
+2026-05-26 19:45:33,358 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:45:33,363 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:45:33,532 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 43/43 documents
+2026-05-26 19:45:33,532 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:45:34,338 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:45:34,339 INFO o.a.h.m.Job [main] Job job_local165490717_0001 completed successfully
+2026-05-26 19:45:34,361 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=184674440
+		FILE: Number of bytes written=261921375
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=68956
+		Map output records=68956
+		Map output bytes=19994821
+		Map output materialized bytes=20154015
+		Input split bytes=2076
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=48834
+		Reduce shuffle bytes=20154015
+		Reduce input records=68956
+		Reduce output records=43
+		Spilled Records=137912
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=20
+		Total committed heap usage (bytes)=4089446400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=43
+		index_latency_p50_ms=0
+		index_latency_p95_ms=1
+		index_latency_p99_ms=3
+		index_latency_sum_ms=10
+		indexed_total=43
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=11672917
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:45:34,362 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:45:34,365 INFO o.a.n.i.IndexingJob [main] Indexer:     43  index_latency_count_total
+2026-05-26 19:45:34,365 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p95_ms
+2026-05-26 19:45:34,366 INFO o.a.n.i.IndexingJob [main] Indexer:      3  index_latency_p99_ms
+2026-05-26 19:45:34,366 INFO o.a.n.i.IndexingJob [main] Indexer:     10  index_latency_sum_ms
+2026-05-26 19:45:34,366 INFO o.a.n.i.IndexingJob [main] Indexer:     43  indexed_total
+2026-05-26 19:45:34,366 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 2360 ms
+2026-05-26 19:45:53,718 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:45:53,779 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:45:53,780 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:45:53,845 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:46:02,558 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:46:02,608 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:46:02,609 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:46:02,610 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:46:02,669 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:46:02,720 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl_old/segments/20260522182503.
+2026-05-26 19:46:02,720 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:46:02,723 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:46:02,723 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:46:02,723 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:46:02,723 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl_old/crawldb
+2026-05-26 19:46:02,724 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl_old/segments/20260522182503
+2026-05-26 19:46:02,725 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl_old/linkdb
+2026-05-26 19:46:03,030 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:46:03,032 INFO o.a.h.m.Job [main] Running job: job_local82933079_0001
+2026-05-26 19:46:03,509 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:46:03,561 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:46:03,588 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:46:03,674 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:46:03,679 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:46:03,751 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 67/67 documents
+2026-05-26 19:46:03,751 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:46:04,040 INFO o.a.h.m.Job [main] Job job_local82933079_0001 running in uber mode : false
+2026-05-26 19:46:04,041 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:46:04,042 INFO o.a.h.m.Job [main] Job job_local82933079_0001 completed successfully
+2026-05-26 19:46:04,052 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=49054945
+		FILE: Number of bytes written=74746256
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=18178
+		Map output records=18178
+		Map output bytes=4918154
+		Map output materialized bytes=4957528
+		Input split bytes=2124
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8523
+		Reduce shuffle bytes=4957528
+		Reduce input records=18178
+		Reduce output records=67
+		Spilled Records=36356
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=27
+		Total committed heap usage (bytes)=4229955584
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=67
+		index_latency_p50_ms=0
+		index_latency_p95_ms=1
+		index_latency_p99_ms=1
+		index_latency_sum_ms=5
+		indexed_total=67
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=2750013
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:46:04,053 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:46:04,056 INFO o.a.n.i.IndexingJob [main] Indexer:     67  index_latency_count_total
+2026-05-26 19:46:04,057 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p95_ms
+2026-05-26 19:46:04,057 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p99_ms
+2026-05-26 19:46:04,057 INFO o.a.n.i.IndexingJob [main] Indexer:      5  index_latency_sum_ms
+2026-05-26 19:46:04,057 INFO o.a.n.i.IndexingJob [main] Indexer:     67  indexed_total
+2026-05-26 19:46:04,057 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 1336 ms
+2026-05-26 19:46:15,893 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:46:15,948 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:46:15,949 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:46:15,999 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:46:16,046 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl_old/segments/20260522182443.
+2026-05-26 19:46:16,047 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:46:16,050 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:46:16,050 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:46:16,050 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:46:16,050 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl_old/crawldb
+2026-05-26 19:46:16,051 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl_old/segments/20260522182443
+2026-05-26 19:46:16,051 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl_old/linkdb
+2026-05-26 19:46:16,353 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:46:16,355 INFO o.a.h.m.Job [main] Running job: job_local1846800600_0001
+2026-05-26 19:46:16,787 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:46:16,832 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:46:16,859 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:46:16,950 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:46:16,954 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:46:17,002 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 1/1 documents
+2026-05-26 19:46:17,002 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:46:17,363 INFO o.a.h.m.Job [main] Job job_local1846800600_0001 running in uber mode : false
+2026-05-26 19:46:17,364 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:46:17,365 INFO o.a.h.m.Job [main] Job job_local1846800600_0001 completed successfully
+2026-05-26 19:46:17,385 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=39690312
+		FILE: Number of bytes written=64261610
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=11531
+		Map output records=11531
+		Map output bytes=3515653
+		Map output materialized bytes=3541377
+		Input split bytes=2124
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8523
+		Reduce shuffle bytes=3541377
+		Reduce input records=11531
+		Reduce output records=1
+		Spilled Records=23062
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=16
+		Total committed heap usage (bytes)=4089446400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=1
+		index_latency_p50_ms=1
+		index_latency_p95_ms=1
+		index_latency_p99_ms=1
+		index_latency_sum_ms=1
+		indexed_total=1
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=1840329
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:46:17,385 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:46:17,387 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_count_total
+2026-05-26 19:46:17,387 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p50_ms
+2026-05-26 19:46:17,387 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p95_ms
+2026-05-26 19:46:17,388 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p99_ms
+2026-05-26 19:46:17,388 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_sum_ms
+2026-05-26 19:46:17,388 INFO o.a.n.i.IndexingJob [main] Indexer:      1  indexed_total
+2026-05-26 19:46:17,388 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 1340 ms
+2026-05-26 19:47:09,286 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:47:09,350 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:47:09,351 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:47:09,352 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:47:09,417 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:47:09,478 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl_old/segments/20260522182646.
+2026-05-26 19:47:09,479 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:47:09,482 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:47:09,482 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:47:09,482 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:47:09,482 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl_old/crawldb
+2026-05-26 19:47:09,483 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl_old/segments/20260522182646
+2026-05-26 19:47:09,484 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl_old/linkdb
+2026-05-26 19:47:09,812 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:47:09,814 INFO o.a.h.m.Job [main] Running job: job_local805342927_0001
+2026-05-26 19:47:10,822 INFO o.a.h.m.Job [main] Job job_local805342927_0001 running in uber mode : false
+2026-05-26 19:47:10,825 INFO o.a.h.m.Job [main]  map 100% reduce 0%
+2026-05-26 19:47:10,940 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:47:11,032 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:47:11,063 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:47:11,166 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:47:11,171 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:47:11,401 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 868/868 documents
+2026-05-26 19:47:11,401 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:47:11,827 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:47:11,827 INFO o.a.h.m.Job [main] Job job_local805342927_0001 completed successfully
+2026-05-26 19:47:11,832 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=183878714
+		FILE: Number of bytes written=237109880
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=92480
+		Map output records=92480
+		Map output bytes=20256639
+		Map output materialized bytes=20449133
+		Input split bytes=2124
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8523
+		Reduce shuffle bytes=20449133
+		Reduce input records=92480
+		Reduce output records=868
+		Spilled Records=184960
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=34
+		Total committed heap usage (bytes)=4219469824
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=868
+		index_latency_p50_ms=0
+		index_latency_p95_ms=0
+		index_latency_p99_ms=1
+		index_latency_sum_ms=32
+		indexed_total=868
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=12774556
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:47:11,832 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:47:11,834 INFO o.a.n.i.IndexingJob [main] Indexer:    868  index_latency_count_total
+2026-05-26 19:47:11,834 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p99_ms
+2026-05-26 19:47:11,834 INFO o.a.n.i.IndexingJob [main] Indexer:     32  index_latency_sum_ms
+2026-05-26 19:47:11,834 INFO o.a.n.i.IndexingJob [main] Indexer:    868  indexed_total
+2026-05-26 19:47:11,834 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 2355 ms
+2026-05-26 19:47:39,026 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:47:39,087 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:47:39,088 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:47:39,149 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:47:39,208 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl/segments/20260526191738.
+2026-05-26 19:47:39,209 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:47:39,212 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:47:39,212 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:47:39,212 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:47:39,212 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl/crawldb
+2026-05-26 19:47:39,213 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl/segments/20260526191738
+2026-05-26 19:47:39,214 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl/linkdb
+2026-05-26 19:47:39,535 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:47:39,537 INFO o.a.h.m.Job [main] Running job: job_local320788604_0001
+2026-05-26 19:47:40,545 INFO o.a.h.m.Job [main] Job job_local320788604_0001 running in uber mode : false
+2026-05-26 19:47:40,546 INFO o.a.h.m.Job [main]  map 100% reduce 0%
+2026-05-26 19:47:40,729 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:47:40,847 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:47:40,877 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:47:40,981 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:47:40,986 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:47:41,275 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 505/505 documents
+2026-05-26 19:47:41,275 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:47:42,557 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:47:42,557 INFO o.a.h.m.Job [main] Job job_local320788604_0001 completed successfully
+2026-05-26 19:47:42,576 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=251591307
+		FILE: Number of bytes written=341369878
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=109164
+		Map output records=109164
+		Map output bytes=30636295
+		Map output materialized bytes=30880050
+		Input split bytes=2076
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=48834
+		Reduce shuffle bytes=30880050
+		Reduce input records=109164
+		Reduce output records=505
+		Spilled Records=218328
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=21
+		Total committed heap usage (bytes)=4089446400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=505
+		index_latency_p50_ms=0
+		index_latency_p95_ms=1
+		index_latency_p99_ms=1
+		index_latency_sum_ms=50
+		indexed_total=505
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=18065677
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:47:42,577 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:47:42,583 INFO o.a.n.i.IndexingJob [main] Indexer:    505  index_latency_count_total
+2026-05-26 19:47:42,583 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p95_ms
+2026-05-26 19:47:42,583 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p99_ms
+2026-05-26 19:47:42,583 INFO o.a.n.i.IndexingJob [main] Indexer:     50  index_latency_sum_ms
+2026-05-26 19:47:42,583 INFO o.a.n.i.IndexingJob [main] Indexer:    505  indexed_total
+2026-05-26 19:47:42,584 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 3374 ms
+2026-05-26 19:49:59,859 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/isabelledarling/Downloads/apache-nutch-1.222/plugins
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2026-05-26 19:49:59,924 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	SolrIndexWriter (indexer-solr)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Publisher (org.apache.nutch.publisher.NutchPublisher)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Exchange (org.apache.nutch.exchange.Exchange)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch URL Ignore Exemption Filter (org.apache.nutch.net.URLExemptionFilter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Index Writer (org.apache.nutch.indexer.IndexWriter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2026-05-26 19:49:59,925 INFO o.a.n.p.PluginRepository [main] 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2026-05-26 19:49:59,987 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-05-26 19:50:00,044 INFO o.a.n.s.SegmentChecker [main] Segment dir is complete: crawl/segments/20260526192601.
+2026-05-26 19:50:00,046 INFO o.a.n.i.IndexingJob [main] Indexer: starting
+2026-05-26 19:50:00,048 INFO o.a.n.i.IndexingJob [main] Indexer: deleting gone documents: false
+2026-05-26 19:50:00,048 INFO o.a.n.i.IndexingJob [main] Indexer: URL filtering: false
+2026-05-26 19:50:00,048 INFO o.a.n.i.IndexingJob [main] Indexer: URL normalizing: false
+2026-05-26 19:50:00,049 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: crawldb: crawl/crawldb
+2026-05-26 19:50:00,050 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduces: adding segment: crawl/segments/20260526192601
+2026-05-26 19:50:00,050 INFO o.a.n.i.IndexerMapReduce [main] IndexerMapReduce: linkdb: crawl/linkdb
+2026-05-26 19:50:00,362 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2026-05-26 19:50:00,364 INFO o.a.h.m.Job [main] Running job: job_local1041574850_0001
+2026-05-26 19:50:01,372 INFO o.a.h.m.Job [main] Job job_local1041574850_0001 running in uber mode : false
+2026-05-26 19:50:01,373 INFO o.a.h.m.Job [main]  map 100% reduce 0%
+2026-05-26 19:50:03,728 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2026-05-26 19:50:04,020 INFO o.a.n.i.IndexWriters [pool-5-thread-1] Index writer org.apache.nutch.indexwriter.solr.SolrIndexWriter identified.
+2026-05-26 19:50:04,052 WARN o.a.n.e.Exchanges [pool-5-thread-1] No exchange was configured. The documents will be routed to all index writers.
+2026-05-26 19:50:04,145 INFO o.a.n.i.IndexerOutputFormat [pool-5-thread-1] Active IndexWriters :
+SolrIndexWriter:
+┌─────────────────┬──────────────────────────────────────────────────────────────────┬─────────────────────────────────────┐
+│type             │Specifies the SolrClient implementation to use. This is  a  string│http                                 │
+│                 │value of one of  the  following  "cloud"  or  "http".  The  values│                                     │
+│                 │represent CloudSolrServer or HttpSolrServer respectively.         │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│url              │Defines the fully qualified URL of Solr into which data should  be│http://localhost:8983/solr/toy_engine│
+│                 │indexed. Multiple URL can be provided using comma as a  delimiter.│                                     │
+│                 │When the value of type property  is  cloud,  the  URL  should  not│                                     │
+│                 │include any collections or cores; just the root Solr path.        │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│collection       │The collection used in requests. Only used when the value of  type│                                     │
+│                 │property is cloud.                                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│commitSize       │Defines the number of documents to send to Solr in a single update│1000                                 │
+│                 │batch. Decrease when handling  very  large  documents  to  prevent│                                     │
+│                 │Nutch from running out of memory. Note:  It  does  not  explicitly│                                     │
+│                 │trigger a server side commit.                                     │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│weight.field     │Field's name where the weight of the documents will be written. If│                                     │
+│                 │it is empty no field will be used.                                │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth             │Whether to enable HTTP basic authentication for communicating with│false                                │
+│                 │Solr. Use the username and password properties to  configure  your│                                     │
+│                 │credentials.                                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.name │The authentication header content name.                           │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│auth.header.value│The authentication header content value.                          │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│username         │The username of Solr server.                                      │                                     │
+├─────────────────┼──────────────────────────────────────────────────────────────────┼─────────────────────────────────────┤
+│password         │The password of Solr server.                                      │                                     │
+└─────────────────┴──────────────────────────────────────────────────────────────────┴─────────────────────────────────────┘
+
+
+2026-05-26 19:50:04,151 INFO o.a.n.i.a.AnchorIndexingFilter [pool-5-thread-1] Anchor deduplication is: off
+2026-05-26 19:50:04,408 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 1000/1000 documents
+2026-05-26 19:50:04,408 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:50:04,957 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 1000/2000 documents
+2026-05-26 19:50:04,957 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:50:05,451 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 1000/3000 documents
+2026-05-26 19:50:05,452 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:50:05,862 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 1000/4000 documents
+2026-05-26 19:50:05,862 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:50:06,211 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Indexing 234/4234 documents
+2026-05-26 19:50:06,211 INFO o.a.n.i.s.SolrIndexWriter [pool-5-thread-1] Deleting 0 documents
+2026-05-26 19:50:09,404 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2026-05-26 19:50:09,404 INFO o.a.h.m.Job [main] Job job_local1041574850_0001 completed successfully
+2026-05-26 19:50:09,427 INFO o.a.h.m.Job [main] Counters: 52
+	File System Counters
+		FILE: Number of bytes read=941519162
+		FILE: Number of bytes written=1246186569
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=410219
+		Map output records=410219
+		Map output bytes=116691137
+		Map output materialized bytes=117573163
+		Input split bytes=2076
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=48834
+		Reduce shuffle bytes=117573163
+		Reduce input records=410219
+		Reduce output records=4234
+		Spilled Records=820438
+		Shuffled Maps =12
+		Failed Shuffles=0
+		Merged Map outputs=12
+		GC time elapsed (ms)=27
+		Total committed heap usage (bytes)=4158652416
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	nutch_indexer
+		deleted_by_indexing_filter_total=0
+		deleted_duplicates_total=0
+		deleted_gone_total=0
+		deleted_redirects_total=0
+		deleted_robots_noindex_total=0
+		errors_indexing_total=0
+		errors_network_total=0
+		errors_other_total=0
+		errors_parsing_total=0
+		errors_protocol_total=0
+		errors_scoring_total=0
+		errors_timeout_total=0
+		errors_total=0
+		errors_url_total=0
+		index_latency_count_total=4234
+		index_latency_p50_ms=0
+		index_latency_p95_ms=0
+		index_latency_p99_ms=1
+		index_latency_sum_ms=170
+		indexed_total=4234
+		skipped_by_indexing_filter_total=0
+		skipped_not_modified_total=0
+	File Input Format Counters 
+		Bytes Read=68889850
+	File Output Format Counters 
+		Bytes Written=0
+2026-05-26 19:50:09,427 INFO o.a.n.i.IndexingJob [main] Indexer: number of documents indexed, deleted, or skipped:
+2026-05-26 19:50:09,430 INFO o.a.n.i.IndexingJob [main] Indexer:   4234  index_latency_count_total
+2026-05-26 19:50:09,430 INFO o.a.n.i.IndexingJob [main] Indexer:      1  index_latency_p99_ms
+2026-05-26 19:50:09,430 INFO o.a.n.i.IndexingJob [main] Indexer:    170  index_latency_sum_ms
+2026-05-26 19:50:09,430 INFO o.a.n.i.IndexingJob [main] Indexer:   4234  indexed_total
+2026-05-26 19:50:09,430 INFO o.a.n.i.IndexingJob [main] Indexer: finished, elapsed: 9384 ms
